@@ -1,0 +1,2 @@
+class Randomchamp < ApplicationRecord
+end
