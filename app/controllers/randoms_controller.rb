@@ -4,4 +4,7 @@ class RandomsController < ApplicationController
     @random = Randomchamp.order("RANDOM()").first
   end
 
+  def about
+  end
+
 end
