@@ -8,6 +8,6 @@
 
 144.times do 
   Randomchamp.create([{
-    name: Faker::Games::LeagueOfLegends.champion
+    name: Faker::Games::LeagueOfLegends.champion.uniq
   }])
 end
