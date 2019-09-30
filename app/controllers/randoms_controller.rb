@@ -1,7 +1,7 @@
 class RandomsController < ApplicationController
 
   def index
-    @randoms = Randomchamp.order("RANDOM()").first
+    @random = Randomchamp.order("RANDOM()").first
   end
 
 end
