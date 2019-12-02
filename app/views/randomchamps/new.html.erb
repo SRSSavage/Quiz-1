@@ -1,0 +1,8 @@
+<h1> Create a New Champ! </h1>
+
+<div class="da-box">
+  <%= simple_form_for @randomchamp do |f|  %>
+    <%= f.input :name %>
+    <%= f.submit "Create Champ!"%>
+  <% end %>
+</div>

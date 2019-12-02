@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class RandomsControllerTest < ActionDispatch::IntegrationTest
+class RandomchampsControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

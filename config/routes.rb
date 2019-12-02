@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'randoms#index'
-  resources :randoms
-  get 'about', to: 'randoms#about'
+  root 'randomchamps#index'
+  resources :randomchamps
+  get 'about', to: 'randomchamps#about'
 end
